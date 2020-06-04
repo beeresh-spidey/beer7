@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    text-align: center; /*this makes everything in centre*/
+    font-family: 'Merriweather', serif;
+}
+.top-container{
+    background-color: #e3fdfd;
+    position: relative;
+    padding-top: 100px;
+    height: 600px;
+}
+.profile{
+    margin-top: 30px;
+}
+h1{
+    margin-top: 50px,auto,0px,auto;
+    font-family: 'Sacramento', cursive;
+    font-size:  5.625rem;
+    color:#66BFBF ;
+    position: relative;
+    bottom: 50px;
+    /*always use"%"in font size as 100% is exactly 16px n if u wanna use 90px then divide by 16 u get 562.5% so that it
+    stays regular in website even if settings changed to medium,large,small etc n also we can use "em" where 
+    1em=16px n when u have font size in body of css n u dont want to alter ur h1 font sizew then use ('rem)
+    which means root'em'*/
+}
+.text-area2{
+    font-size: 2.5rem;
+    color:#66BFBF ;
+    font-weight: normal;
+    position: relative;
+    bottom: 80px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#66BFBF ;
+    font-size:35px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif; 
+    color: #11999E;
+}
+span{
+    text-decoration: underline;
+}
+.topcl-1{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+.bottomcl-2{
+    position: absolute;
+    left: 200px;
+    bottom: 280px;
+}
+.bottom-container{
+    color: #11999E;
+    background-color: #66bfbf;
+    padding: 30px;
+}
+.footer-link{
+    color: #11999E;
+}
+.m-1{
+    position: relative;
+    bottom: 100px;
+}
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;/*we dont have to specify units*/
+}
+.skill-img1{
+   float: left;
+   margin-right: 30px;
+}
+.skill-img2{
+    float: right;
+    margin-left: 30px;
+}
+/*.clr-1{
+    clear: left;}
+*/
+/*above is ex of clear and only use float when u want to wrap text around element or else 
+use padding ,margin etc for layout property*/
+p{
+    color: #40514E
+    ;
+}
+.b-1{
+    color:#66BFBF ;
+}
+.b-2{
+    color: #11999E;
+}
+.lh-1{
+    line-height: 3;
+}
+.footer-link{
+    padding: 30px;
+    text-decoration: none;
+    color: #11999e;
+}
+a:hover{
+    color: #eaf6f6;
+}
+.f-1{
+    color: #eaf6f6;
+    font-size: .75rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+hr{
+    border-style: dotted none none none;
+    width:8%;
+    border-width: 10px;
+    border-color:cornflowerblue;
+    margin: 100px auto;
+}
+.btn {
+	box-shadow: 0px 0px 0px 0px #3dc21b;
+	background-color:#44c767;
+	border-radius:9px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.btn:hover {
+	background-color:#5cbf2a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
